@@ -1,10 +1,14 @@
+# Assignment 1 (COP4520)
+Created by Sterling Downs
+
 ## Problem
 Your non-technical manager assigns you the task to find all primes between 1 and 108.  The assumption is that your company is going to use a parallel machine that supports eight concurrent threads. Thus, in your design you should plan to spawn 8 threads that will perform the necessary computation. Your boss does not have a strong technical background but she is a reasonable person. Therefore, she expects to see that the work is distributed such that the computational execution time is approximately equivalent among the threads. Finally, you need to provide a brief summary of your approach and an informal statement reasoning about the correctness and efficiency of your design. Provide a summary of the experimental evaluation of your approach. Remember, that your company cannot afford a supercomputer and rents a machine by the minute, so the longer your program takes, the more it costs. Feel free to use any programming language of your choice that supports multi-threading as long as you provide a ReadMe file with instructions for your manager explaining how to compile and run your program from the command prompt.
 
 ## Installation & Usage
 To run this program, it is recommended that you use the dotnet-CLI.
+.NET 5 is required to run this project. Instructions for how to install it via CLI are listed below.
 
-1. Run the following commands in order:
+1. Run the following commands (via command line) in order:
 
 
 ```
