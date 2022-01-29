@@ -25,7 +25,7 @@ sudo apt update
 sudo apt install dotnet-sdk-5.0
 ```
 
-2. Verify your .NET 5 installation by executing the `dotnet --list-sdks`"` command.
+2. Verify your .NET 5 installation by executing the `dotnet --list-sdks` command.
 3. Navigate to the source directory (should contain Assignment1.csproj)
 4. To compile __and__ run the program, use the `dotnet run -c release` command.
 5. A `primes.txt` file with the results of the program will be created in the project source code directory.
